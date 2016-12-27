@@ -1,0 +1,13 @@
+
+{
+  "name": "Smart Parking Deck",
+  "short_name": "SPD",
+  "description": "Checks the available parking spots"
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}

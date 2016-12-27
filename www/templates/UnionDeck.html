@@ -1,0 +1,24 @@
+<ion-view title=" Union Deck" hide-nav-bar="true" hide-back-button="true" id="page3" style="background-color:#DBDBBE;">
+  <div class="bar bar-header"style="background-color:#00703C;">
+    <a ui-sref="menu.home" class="button icon-left ion-chevron-left button-clear button-dark" style="color:#DBDBBE;" ng-click="uClearMap()">Back</a>
+    <div class="h1 title" style="color:#DBDBBE;"><b>Union Deck</b></div>
+  </div>
+  <ion-content class="manual-ios-statusbar-padding" controller="UnionDeckCtrl">
+    <!--
+    <a ui-sref="menu.home" id="coneDeck12-button17" style="color:#DBDBBE;text-align:left;border-radius:5px 5px 5px 5px;" class="button button-light button-small button-block icon-left ion-android-arrow-back">Back</a>
+    <creator-map-component options="{}" marker="true" location="8921 UNIVERSITY RD, Charlotte NC 28223" zoom="16" style="display:block;position:relative;width:100%;height:70%;">
+      <ui-gmap-google-map ng-if="map.center" center="map.center" zoom="map.zoom" options="map.options">
+        <ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options" icon='{url: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|00703C|DBDBBE|DBDBBE"}'></ui-gmap-marker>
+      </ui-gmap-google-map>
+    </creator-map-component>
+     -->
+    <div  id="mapvU" data-tap-disabled="true" style="margin-top: 25px; display:block;position:relative;width:100%;height:60%;"></div>
+
+    <div style="margin:8px; margin-top:15px;">
+      <button id="UnionDeck-button21"  style="color:#DBDBBE; text-align:left; margin: 3px auto; font-size:18px;" class="button button-block button-light"><b>Capacity: {{unionDeck.capacity}}</b></button>
+      <button id="UnionDeck-button20" style="color:#DBDBBE; text-align:left; margin: 3px auto; font-size:18px;" class="button button-light  button-block"><b>Available: {{unionDeck.available}}</b></button>
+      <button id="UnionDeck-button22" style="color:#DBDBBE; text-align:left; margin: 3px auto; font-size:18px; font:Times New Roman" class="button button-light  button-block"><b>Handicap: 20</b></button>
+      <a id="getDirections3-buttonu" style="color:#DBDBBE; text-align:left; margin: 3px auto; font-size:18px;" class="button icon-left ion-compass button-light  button-block" ng-click="uDirections()"><b>Directions</b></a>
+    </div>
+  </ion-content>
+</ion-view>

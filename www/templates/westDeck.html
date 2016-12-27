@@ -1,0 +1,24 @@
+<ion-view title="West Deck" hide-nav-bar="true" id="page5" style="background-color:#DBDBBE;">
+  <div class="bar bar-header"style="background-color:#00703C;">
+    <a ui-sref="menu.home" class="button icon-left ion-chevron-left button-clear button-dark" style="color:#DBDBBE;" ng-click="wClearMap()">Back</a>
+    <div class="h1 title" style="color:#DBDBBE;"><b>West Deck</b></div>
+  </div>
+  <ion-content class="manual-ios-statusbar-padding" controller="westDeckCtrl">
+    <!--
+    <a ui-sref="menu.home" id="coneDeck12-button17" style="color:#DBDBBE;text-align:left;border-radius:5px 5px 5px 5px;" class="button button-light button-small button-block icon-left ion-android-arrow-back">Back</a>
+    <creator-map-component options="{}" marker="true" location="8921 UNIVERSITY RD, Charlotte NC 28223" zoom="16" style="display:block;position:relative;width:100%;height:70%;">
+      <ui-gmap-google-map ng-if="map.center" center="map.center" zoom="map.zoom" options="map.options">
+        <ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options" icon='{url: "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|00703C|DBDBBE|DBDBBE"}'></ui-gmap-marker>
+      </ui-gmap-google-map>
+    </creator-map-component>
+     -->
+    <div  id="mapvW" data-tap-disabled="true" style="margin-top: 25px; display:block;position:relative;width:100%;height:60%;"></div>
+
+    <div style="margin:8px; margin-top:15px;">
+      <button id="westDeck-button28"  style="color:#DBDBBE; text-align:left; margin: 3px auto; font-size:18px;" class="button button-block button-light"><b>Capacity: {{westDeck.capacity}}</b></button>
+      <button id="westDeck-button26" style="color:#DBDBBE; text-align:left; margin: 3px auto; font-size:18px;" class="button button-light  button-block"><b>Available: {{westDeck.available}}</b></button>
+      <button id="ewestDeck-button27" style="color:#DBDBBE; text-align:left; margin: 3px auto; font-size:18px; font:Times New Roman" class="button button-light  button-block"><b>Handicap: 7</b></button>
+      <a id="getDirections4-buttonwest" style="color:#DBDBBE; text-align:left; margin: 3px auto; font-size:18px;" class="button icon-left ion-compass button-light  button-block" ng-click="wDirections()"><b>Directions</b></a>
+    </div>
+  </ion-content>
+</ion-view>

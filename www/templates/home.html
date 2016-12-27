@@ -1,0 +1,80 @@
+<ion-view title="Smart Parking Deck" hide-nav-bar="true" id="page1" style="background-color:#DBDBBE;">
+  <ion-content padding="true" class=" manual-remove-top-padding">
+    <div>
+
+    </div>
+    <div class="spacer" style="width: 300px; height: 4px;"></div>
+    <h2 id="home-heading1" style="color:#00703C;text-align:center;">Select a Deck</h2>
+    <ion-list id="home-list3">
+
+    <!-- EAST DECK 2 BUTTON -->
+      <ion-item style="border-radius:10px 10px 10px 10px" class="item-thumbnail-left energized" id="home-list-item9" ui-sref="menu.eastDeck2">
+
+        <img src="img/kxzyOq6wSfOJ5fF54BCC_parking_icon.jpg">
+         <div style = "margin-top:20px;";>
+        <h2energized style = "font-size: 24px; font-weight: bold;">East Deck 2</h2energized>
+          <div style = "margin-top:2px;";>
+              <h3energized>Available: {{eastDeck.available}}</h3energized>
+            </div>
+        </div>
+      </ion-item>
+
+      <!-- EAST DECK 3 BUTTON -->
+      <ion-item style="border-radius:10px 10px 10px 10px;" class="item-thumbnail-left energized" id="home-list-item10" ui-sref="menu.eastDeck3">
+        <img src="img/ZmHIk92PSSe5ALLyanEU_parking_icon.jpg">
+        <div style = "margin-top:20px;";>
+          <h2energized style = "font-size: 24px; font-weight: bold;">East Deck 3</h2energized>
+            <div style = "margin-top:2px;";>
+              <h3energized>Available: {{eastDeck2.available}}</h3energized>
+            </div>
+        </div>
+      </ion-item>
+
+      <!-- CONE DECK 1 BUTTON -->
+      <ion-item  style="border-radius:10px 10px 10px 10px" class="item-thumbnail-left energized" id="home-list-item11" ui-sref="menu.coneDeck12">
+        <img src="img/vAIAxYyDT2qkJdm8RCM4_parking_icon.jpg">
+        <div style = "margin-top:20px;";>
+          <h2energized style = "font-size: 24px; font-weight: bold;">Cone Deck 1 &amp; 2</h2energized>
+            <div style = "margin-top:2px;";>
+              <h3energized>Available: {{coneDecks.available}}</h3energized>
+            </div>
+        </div>
+      </ion-item>
+
+      <!-- WEST DECK BUTTON -->
+      <ion-item style="border-radius:10px 10px 10px 10px" class="item-thumbnail-left energized" id="home-list-item12" ui-sref="menu.westDeck">
+        <img src="img/gQh6qzjJRyahmP9dvh10_parking_icon.jpg">
+        <div style = "margin-top:20px;";>
+          <h2energized style = "font-size: 24px; font-weight: bold;">West Deck</h2energized>
+            <div style = "margin-top:2px;";>
+              <h3energized>Available: {{westDeck.available}}</h3energized>
+            </div>
+        </div>
+      </ion-item>
+
+      <!-- UNION DECK BUTTON -->
+      <ion-item style="border-radius:10px 10px 10px 10px" class="item-thumbnail-left energized" id="home-list-item13" ui-sref="menu.UnionDeck">
+        <img src="img/TmiSiFoRTVCrJOPZuYl1_parking_icon.jpg">
+         <div style = "margin-top:20px;";>
+          <h2energized style = "font-size: 24px; font-weight: bold;">Union Deck</h2energized>
+            <div style = "margin-top:2px;";>
+              <h3energized>Available: {{unionDeck.available}}</h3energized>
+            </div>
+        </div>
+      </ion-item>
+
+
+
+      <ion-item style="border-radius:10px 10px 10px 10px" class="item-thumbnail-left energized" id="home-list-item14" ui-sref="menu.maps">
+        <img src="img/map-marker-lightgreen-256.png">
+         <div style = "margin-top:30px;";>
+          <h2energized style = "font-size: 28px; font-weight: bold;">Map</h2energized>
+         </div>
+      </ion-item>
+
+
+
+    </ion-list>
+    <div class="spacer" style="height: 100px;"></div>
+  </ion-content>
+</ion-view>

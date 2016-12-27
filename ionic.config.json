@@ -1,0 +1,5 @@
+{
+  "name": "rpcparkingv2",
+  "app_id": "",
+  "gulpStartupTasks": ["sass", "watch"]
+}
