@@ -1,6 +1,9 @@
 # SPD_Front_End
 SPD uses the Ionic framework to provide its users with parking deck statistics, eliminating time wasted searching for a parking space. The application uses the Ionic framework and Firebase's Real Time Database. Chosen for its cross platform capabilities, Ionic provides a simplistic interface for users to check and see how many available parking spaces there are in each parking deck. The Firebase Real Time DB immediately pushes any changes made to the database, allowing users to have the most accurate information available. 
 
+![Screenshot](https://user-images.githubusercontent.com/13583303/29679012-91fedcac-88ce-11e7-9353-7a9d2a5228f0.png)
+
+
 **Future Changes:**
 - Add statistics. For example, busiest days/hours for each parking deck.
 - Examine reservation capability. (Being able to reserve a parking spot in advance). 
