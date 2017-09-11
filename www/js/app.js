@@ -11,12 +11,13 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
 
 })
 .config(function(){
+  // Keys have been removed for gitHub
 var config = {
-    apiKey: "AIzaSyCTY0Q178mf-rNPp7n1x5mpzh81BAHM60s",
-    authDomain: "rpc-app-603da.firebaseapp.com",
-    databaseURL: "https://rpc-app-603da.firebaseio.com",
-    storageBucket: "rpc-app-603da.appspot.com",
-    messagingSenderId: "907080235956"
+    apiKey: "******",
+    authDomain: "******",
+    databaseURL: "********",
+    storageBucket: "********",
+    messagingSenderId: "*******"
    };
    firebase.initializeApp(config);
    })
